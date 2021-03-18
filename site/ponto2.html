@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Clear Career</title>
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+    type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+  header {
+    padding: 156px 0 100px;
+  }
+
+
+  .accordion-faq {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+    overflow: hidden;
+    border-radius: .35rem;
+  }
+
+  .accordion-faq .accordion-faq-item .card-header .accordion-faq-item-heading {
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #4a515b;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+
+  .img-responsive {
+    width: auto;
+    height: 170px;
+  }
+
+  .py-10 {
+    padding-bottom: 6rem !important;
+    padding-top: 6rem !important;
+  }
+
+  .pb-10 {
+    padding-bottom: 6rem !important;
+  }
+
+  .page-header {
+    position: relative;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .bg-img-cover {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .page-header-dark {
+    color: #fff;
+    background-color: #212832;
+  }
+
+  .page-header .page-header-content .page-header-title {
+    font-size: 2.5rem;
+  }
+
+  .page-header .page-header-content .page-header-text {
+    font-size: 1.15rem;
+  }
+
+  .avatar-xl,
+  .avatar-xl .avatar-img {
+    height: 3rem;
+  }
+
+  .avatar {
+    display: inline-flex;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .avatar-xl {
+    width: 3rem;
+  }
+
+  .avatar .avatar-img {
+    border-radius: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 3rem;
+    width: auto;
+  }
+
+  .testimonial .testimonial-quote {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+
+  .divider-right {
+    border-right: .0625rem solid #e0e5ec;
+  }
+
+  .btn-green {
+    color: #fff;
+    background-color: #82B341;
+    border-color: #82B341;
+  }
+</style>
+
+<body>
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container" style="padding-left: 520px;">
+        <a class="navbar-brand" href="index.html">Clear Career</a>
+    </div>
+</nav>
+
+  <header class="page-header bg-img-cover overlay overlay-80 page-header-dark"
+    style="background-image: url(img/image7.jpg);">
+    <div class="page-header-content py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-lg-10 text-center">
+            <div data-aos="fade-up" class="aos-init aos-animate">
+              <h1 class="page-header-title">Preparação para a Entrevista</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+
+  <section id="about" class="py-10">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <p class="lead">A entrevista é a técnica mais utilizada na seleção e mais conhecida universalmente. A
+            entrevista trata-se de um diálogo entre duas (ou mais) pessoas.
+            O entrevistador procura informar-se acerca dos conhecimentos, motivações, interesses e sentimentos do
+            candidato, no sentido de aprofundar o conhecimento sobre o candidato e esclarecer questões que apresenta no
+            seu CV ou dos testes anteriormente realizados para confirmar se o candidato estará à altura de responder às
+            necessidades concretas do serviço.
+            Para encerrar a entrevista, o entrevistador deverá fazer um sinal que demonstre que a mesma terminou e
+            deverá informar o candidato em relação à decisão e à forma como será contactado para saber o resultado.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-10">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <div class="bs-example">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                      style="color: black; font-size: 1.25rem; font-weight: 300;"><i class="fa fa-angle-down mr-3"
+                        style="font-size:24px"></i><b>A postura do candidato numa entrevista</b></button>
+                  </h2>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+
+                    <div class="row text-center text-lg-left">
+                      <div class="col-lg-3 col-md-4 col-6">
+                        <a href="#" class="d-block mb-4 h-100">
+                              <img class="img-fluid img-thumbnail" src="img/image8.jpeg" alt="">
+                            </a>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-6">
+                        <a href="#" class="d-block mb-4 h-100">
+                              <img class="img-fluid img-thumbnail" src="img/image9.jpeg" alt="">
+                            </a>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-6">
+                        <a href="#" class="d-block mb-4 h-100">
+                              <img class="img-fluid img-thumbnail" src="img/image10.jpg" alt="">
+                            </a>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-6">
+                        <a href="#" class="d-block mb-4 h-100">
+                              <img class="img-fluid img-thumbnail" src="img/image11.jpg" alt="">
+                            </a>
+                      </div>
+                  </div>
+
+                    <p class="lead">Tem uma entrevista? O que não deve fazer:</p>
+                    <ul class="lead">
+                      <li>
+                        Chegar atrasado
+                      </li>
+                      <li>
+                        Ir acompanhado
+                      </li>
+                      <li>
+                        Usar roupas desconfortáveis
+                      </li>
+                      <li>
+                        Evitar falar negativamente sobre os antigos empregos
+                      </li>
+                      <li>
+                        Fazer gestos em excesso
+                      </li>
+                      <li>
+                        Roer as unhas
+                      </li>
+                      <li>
+                        Mexer no cabelo
+                      </li>
+                      <li>
+                        Comer pastilha elástica
+                      </li>
+                      <li>
+                        Soltar risinhos nervosos para forçar a empatia
+                      </li>
+                      <li>
+                        Expressar-se através de respostas monossilábicas (sim, não, talvez, etc.)
+                      </li>
+                      <li>
+                        Mexer-se bastante na cadeira
+                      </li>
+                      <li>
+                        Falar demasiado baixo ou demasiado alto (sinal de receio)
+                      </li>
+                      <li>
+                        Falar sem olhar para o entrevistador (mostra receio, falta de confiança e de sinceridade)
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                      data-target="#collapseTwo" style="color: black; font-size: 1.25rem; font-weight: 300;"><i
+                        class="fa fa-angle-down mr-3" style="font-size:24px"></i><b>O que vestir numa
+                        entrevista</b></button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+
+                    <div class="row text-center text-lg-left">
+                      <div class="col-lg-3 col-md-4 col-6">
+                        <a href="#" class="d-block mb-4 h-100">
+                              <img class="img-fluid img-thumbnail" src="img/image12.jpg" alt="">
+                            </a>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-6">
+                        <a href="#" class="d-block mb-4 h-100">
+                              <img class="img-fluid img-thumbnail" src="img/image13.jpg" alt="">
+                            </a>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-6">
+                        <a href="#" class="d-block mb-4 h-100">
+                              <img class="img-fluid img-thumbnail" src="img/image14.jpg" alt="">
+                            </a>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-6">
+                        <a href="#" class="d-block mb-4 h-100">
+                              <img class="img-fluid img-thumbnail" src="img/image4.jpg" alt="">
+                            </a>
+                      </div>
+                  </div>
+
+                    <ul class="lead">
+                      <li>
+                        Primeiro deve pesquisar sobre a empresa a que se candidata. É sempre importante conhecer a
+                        empresa à qual nos estamos a candidatar, escolhendo assim a forma mais adequada do dress code
+                        consoante o cargo que vai desempenhar. Em caso de dúvida opte por uma roupa mais formal e não
+                        arrisque.
+                      </li>
+                      <p></p>
+                      <li>
+                        Deve sempre sentir-se confortável com a roupa que usa. É valoroso que se sinta à vontade com a
+                        roupa que vai vestir, pois irá refletir-se na sua postura durante a entrevista.
+                      </li>
+                      <p></p>
+                      <li>
+                        Em relação ao estilo de roupa:
+
+                        <p></p>
+
+                        <ul>
+                          <li>
+                            <b><u>Para as senhoras</u></b>: o ideal é utilizar uma camisa com uma saia ou umas calças
+                            clássicas e um blazer, optando sempre por cores neutras como o preto, cinzento, azul marinho
+                            ou bege. No caso de optar por uma saia o modelo deve ser pelo joelho ou alguns centímetros
+                            acima, combinando com uma camisa ou blusa de malha fina com decote redondo ou em V, tendo
+                            sempre em atenção os grandes decotes.
+                            Se preferir optar por uma peça única o indicado será utilizar um vestido de cor neutra pela
+                            altura do joelho e cintado.
+                            Em relação ao calçado usar saltos médios, sabrinas ou sapatos.
+                            Para um toque final, pode sempre acrescentar um colar, brincos ou lenço evitando pulseiras
+                            que façam barulho. Poderá sempre levar a sua mala sendo a mesma um modelo de média dimensão
+                            e em tons neutros.
+
+                          </li>
+
+                          <p></p>
+
+                          <li>
+                            <b><u>Para os homens</u></b>: o ideal é optar por fatos clássicos que sejam cinzentos ou
+                            azuis marinhos evitando o preto, o castanho ou o bege.
+                            Recomenda-se uma camisa que seja branca e de preferência lisa ou com padrões de pequena
+                            dimensão.
+                            No que diz respeito ao calçado, usar modelos clássicos pretos ou castanhos.
+                            Para finalizar, pode usar uma gravata discreta e um relógio.
+
+                          </li>
+
+                          <p></p>
+
+                          <li>
+                            Em geral é importante abster-se do uso de calças de ganga, leggins, calças desportivas,
+                            calções e t-shirts.
+                          </li>
+
+                          <p></p>
+
+                        </ul>
+                      </li>
+
+                      <li>
+                        A nível estético
+
+                        <p></p>
+
+                        <ul>
+                          <li>
+                            <b><u>As senhoras</u></b> devem optar por uma maquilhagem em tons nudes, sendo o mais
+                            natural possível. No que concerne as unhas evitar um comprimento exagerado, cores vivas,
+                            desenhos ou brilhantes optando, portanto, por tons neutros. Para terminar o cabelo deve ter
+                            um aspeto cuidado e limpo, utilizando-o solto ou num rabo de cavalo.
+                          </li>
+
+                          <p></p>
+
+                          <li>
+                            <b><u>Os homens</u></b> devem optar por ter o cabelo com aspeto natural evitando o excesso
+                            de gel e caspa nos ombros.
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                      data-target="#collapseThree" style="color: black; font-size: 1.25rem; font-weight: 300;"><i
+                        class="fa fa-angle-down mr-3" style="font-size:24px"></i><b>Características de
+                        avaliação</b></button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+
+                    <p class="lead">As empresas podem optar por querer fazer uma prova <b>de conhecimento ou de
+                        capacidade</b>. Essa prova analisa, de forma objetiva, os conhecimentos e competências
+                      adquiridas, podendo ser uma prova oral ou escrita.</p>
+
+                    <p></p>
+
+                    <p class="lead">
+                      <b>Testes Psicométricos e Provas Psicológicas</b> medem as aptidões individuais, permitem à
+                      empresa traçar o perfil dos futuros colaboradores, escolhendo aqueles que mais se adaptam à função
+                      pretendida. Mais especificamente, estes testes permitem medir e avaliar:
+                    </p>
+
+                    <p>
+
+                    </p>
+
+                    <ul class="lead">
+                      <li>
+                        <b>Caraterísticas psicológicas</b>, tais como:
+
+                        <ul class="lead">
+                          <li>
+                            Capacidade de raciocínio
+                          </li>
+                          <li>
+                            Resolução de problemas/conflitos
+                          </li>
+                          <li>
+                            Relacionamento interpessoal
+                          </li>
+                          <li>
+                            Personalidade
+                          </li>
+                        </ul>
+                      </li>
+
+                      <p></p>
+
+                      <li>
+                        <b>Caraterísticas motoras</b>:
+
+                        <ul class="lead">
+                          <li>
+                            Aptidões manuais
+                          </li>
+                        </ul>
+                      </li>
+
+                      <p></p>
+
+                      <li>
+                        <b>Características auditivas e visuais</b>
+                      </li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-4">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                      data-target="#collapseFour" style="color: black; font-size: 1.25rem; font-weight: 300;"><i
+                        class="fa fa-angle-down mr-3" style="font-size:24px"></i><b>Testes mais frequentes</b></button>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="card-body">
+
+                    <ul class="lead">
+                      <li>
+                        <b>Os testes de personalidade</b> têm como objetivo conhecer mais aprofundadamente o carater do
+                        candidato e o seu temperamento. Estes testes são subdivididos em duas categorias:
+
+                        <p></p>
+
+                        <ul class="lead">
+                          <li>
+                            <b>Testes genéricos</b>: Trata-se de conhecer os traços gerais da personalidade com testes
+                            expressivos e/ou projetivos.
+                          </li>
+
+                          <p></p>
+
+                          <li>
+                            <b>Testes específicos</b>: Também se trata de conhecer os traços gerais da personalidade,
+                            mas a partir de testes de motivação, de interesses e de frustração.
+                          </li>
+                        </ul>
+
+                      </li>
+
+                      <p></p>
+
+                      <li>
+                        <b>Testes de simulação ou de grupo</b>: Funcionam como uma prova coletiva, através da
+                        apresentação de um problema ou situação prática que deve ser resolvida dentro de um determinado
+                        tempo. Através destes exercícios, testam-se as capacidades de trabalho em equipa, de
+                        comunicação, de liderança, de gestão, planeamento do tempo e de tarefas.
+                      </li>
+
+                      <p></p>
+
+                      <li>
+                        <b>Testes de Conhecimentos Específicos / Testes de aptidão</b>: Avaliam os conhecimentos do
+                        candidato numa área específica, essencial à função em causa, por exemplo conhecimentos de uma
+                        língua estrangeira.
+
+                        <p></p>
+
+                        Estes <b>testes de aptidão</b> costumam ser cronometradas e desta forma, consegue-se avaliar as
+                        capacidades do candidato para gerir o tempo disponível e a sua rapidez de raciocínio e de reação
+                        à pressão. Estes testes podem ser:
+
+                        <p></p>
+
+                        <ul class="lead">
+                          <li>
+                            <b>Verbais</b>: Avaliam os conhecimentos que os candidatos detêm da língua materna ou
+                            estrangeira, através, por exemplo, de questões de interpretação de um texto.
+                          </li>
+
+                          <p></p>
+
+                          <li>
+                            <b>Lógicos</b>: Analisam as capacidades de raciocínio do candidato, através do
+                            relacionamento e identificação de sequências lógicas entre elementos.
+                          </li>
+
+                          <p></p>
+
+                          <li>
+                            <b>Numéricos</b>: Avaliam a capacidade de utilização e interpretação de números, através da
+                            resolução de exercícios.
+                          </li>
+                        </ul>
+
+                        <p></p>
+
+                      </li>
+                    </ul>
+
+                    <p class="lead mt-5" style="text-align: center; font-size: 1.75rem;"><b>Faça aqui o seu teste!</b>
+                    </p>
+                    <p class="lead mb-5" style="text-align: center;">O seu nível de Qi e de Qe pode influenciar o seu
+                      futuro num bom emprego, teste aqui o seu!</p>
+
+                    <div class="row">
+                      <div class="col-lg-6 col-sm-6 mb-4">
+                        <div class="card h-100">
+                          <a href="testeqi.html"><img class="card-img-top" src="img/image16.jpg" alt=""></a>
+                          <div class="card-body">
+                            <h4 class="card-title" style="text-align: center;">
+                              <a href="testeqi.html">Testes de Qi</a>
+                            </h4>
+                            <p class="card-text lead">A sigla significa quociente de inteligência e serve para avaliar
+                              as qualidades cognitivas de um candidato utilizando a lógica.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-sm-6 mb-4">
+                        <div class="card h-100">
+                          <a href="#"><img class="card-img-top" src="img/image15.jpg" alt=""></a>
+                          <div class="card-body">
+                            <h4 class="card-title" style="text-align: center;">
+                              <a href="testeqe.html">Testes de Qe</a>
+                            </h4>
+                            <p class="card-text lead">A sigla significa quociente emocional e serve para verificar o
+                              nível de equilíbrio e inteligência emocional.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <footer class="footer bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                <ul class="list-inline mb-2">
+                    <li class="list-inline-item">
+                        <a href="#" style="color:#82B341;">Sobre</a>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <a href="#" style="color:#82B341;">Contacto</a>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <p class="text-muted small mb-4 mb-lg-0">&copy; Clear Career 2021. All Rights Reserved.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
